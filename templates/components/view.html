@@ -4,10 +4,13 @@
             {% for crumb in breadcrumbs %}
               <sl-breadcrumb-item>
                 {% if loop.last %}
-                  {{ crumb.name }}
+                  {% if active_project %}
+                    {{ active_project.name }}
+                  {% else %}
+                    {{ crumb.name }}
+                  {% endif %}
                 {% else %}
                   <a href="{{ crumb.url }}">
-                    <sl-icon slot="prefix" name="house"></sl-icon>
                     {{ crumb.name }}
                   </a>
                 {% endif %}
