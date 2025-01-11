@@ -29,6 +29,12 @@ all_projects = {
         'demo': 'https://portfolio-eight-beta-90.vercel.app/',
         'source': 'https://github.com/koficenti/portfolio',
         'readme': 'https://github.com/koficenti/portfolio/raw/refs/heads/main/README.md',
+    },
+    'this-portfolio': {
+        'name': 'Flask Portfolio',
+        'demo': '',
+        'source': 'https://github.com/nedankinde/portfolio',
+        'readme': 'https://github.com/nedankinde/portfolio/raw/refs/heads/main/README.md'
     }
 }
 
