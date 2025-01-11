@@ -15,7 +15,7 @@
             </li>
         </ul>
     </div>
-    <div class="w-[100%] absolute z-10 lg:static lg:w-[350px] bg-white shadow-md h-screen py-12" x-show="open" x-transition>
+    <div class="w-[100%] absolute z-10 lg:static lg:w-[350px] bg-white shadow-md h-screen py-12 overflow-y-auto" x-show="open" x-transition>
         <div class="px-10 py-2">
             <div class="flex items-center justify-between pb-8">
                 <h1 class="text-lg font-medium text-gray-900">Portfolio</h1>
@@ -61,7 +61,7 @@
             <div class="py-6">
                 <div class="w-full h-[2px] bg-gray-200 rounded-full"></div>
             </div>
-            <a href="/projects" class="font-medium text-gray-900 leading-10">Projects</a>
+            <a href="/projects" class="font-medium text-gray-900 leading-10 mb-1">Projects</a>
             <ul class="text-sm space-y-2 max-w-fit font-medium text-gray-900">
                 {% for project_uri, project in projects.items() %}
                     <li class="flex gap-2 items-center font-normal">
