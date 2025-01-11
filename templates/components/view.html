@@ -1,0 +1,21 @@
+<div class="px-4 md:px-12 py-12 overflow-y-auto w-full">
+    <div class="mb-4">
+        <sl-breadcrumb>
+            {% for crumb in breadcrumbs %}
+              <sl-breadcrumb-item>
+                {% if loop.last %}
+                  {{ crumb.name }}
+                {% else %}
+                  <a href="{{ crumb.url }}">
+                    <sl-icon slot="prefix" name="house"></sl-icon>
+                    {{ crumb.name }}
+                  </a>
+                {% endif %}
+              </sl-breadcrumb-item>
+            {% endfor %}
+          </sl-breadcrumb>
+          
+    </div>
+
+    {{ data | safe }}
+</div>
