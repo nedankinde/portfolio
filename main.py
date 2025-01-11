@@ -20,7 +20,8 @@ all_projects = {
         'readme': 'https://github.com/koficenti/BASIC/raw/refs/heads/main/README.md',
     },
     'TYPI': {
-        'name': 'TYPI',
+        'name': 'TYPI: Speed Test',
+        'demo': 'https://typi-sable.vercel.app/',
         'source': 'https://github.com/koficenti/typi',
         'readme': 'https://github.com/koficenti/typi/raw/refs/heads/main/README.md',
     },
