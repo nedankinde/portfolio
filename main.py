@@ -32,7 +32,7 @@ all_projects = {
     },
     'this-portfolio': {
         'name': 'Flask Portfolio',
-        'demo': '',
+        'demo': 'http://34.200.144.216/',
         'source': 'https://github.com/nedankinde/portfolio',
         'readme': 'https://github.com/nedankinde/portfolio/raw/refs/heads/main/README.md'
     }
