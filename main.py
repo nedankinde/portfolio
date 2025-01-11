@@ -72,5 +72,5 @@ def project(project):
         return redirect(url_for('projects'))
     breadcrumbs = generate_breadcrumbs()
     readme = urllib.request.urlopen(p['readme']).read().decode('utf-8')
-    component = render_template('components/project.html', project=p, readme=readme)
+    component = render_template('components/project.html', project=p, readme='\n\n' + readme)
     return render_template('index.html', data=component, breadcrumbs=breadcrumbs, projects=all_projects, active_project=p)
