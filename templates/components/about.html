@@ -1,12 +1,12 @@
 <sl-card>
-    <div class="px-4 py-4">
+    <div class="lg:px-4 py-4 text-center lg:text-left">
         <sl-tooltip content="View this page on mobile!">
             <sl-qr-code value="#" label="View this on mobile!"></sl-qr-code>
         </sl-tooltip>
-        <h1 class="mt-8 text-xl text-gray-900 font-medium leading-10">
+        <h1 class="mt-8 text-sm lg:text-xl text-gray-900 font-medium leading-10">
             Hello there! I'm Josh. It's nice to meet you! 👋
         </h1>
-        <p class="text-gray-700 text-md mt-2 w-[80%]">
+        <p class="text-gray-700 text-sm lg:text-md mt-2 w-full lg:w-[90%]">
 
             I'm a developer with a strong focus on web development—building responsive, modern websites and
             applications is my bread and butter. But I don’t stop there. I dabble in AI, exploring how to integrate
@@ -28,3 +28,160 @@
         </div>
     </div>
 </sl-card>
+
+<div class="mt-6 flex flex-col gap-2">
+    <sl-details summary="Web Development">
+        <div class="flex gap-3 flex-wrap">
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Typescript</p>
+                React
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Typescript</p>
+                Angular
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Typescript</p>
+                Vue
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">PHP</p>
+                Laravel
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">PHP</p>
+                Wordpress
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Python</p>
+                Flask
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Python</p>
+                Django
+            </div>
+        </div>
+    </sl-details>
+    <sl-details summary="Development and Operations">
+        <div class="flex gap-3 flex-wrap">
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Containerization</p>
+                Docker
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Orchestration</p>
+                Kubernetes
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">CI/CD</p>
+                Jenkins
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">CI/CD</p>
+                GitHub Actions
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Monitoring</p>
+                Prometheus
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Monitoring</p>
+                Grafana
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Infrastructure as Code</p>
+                Terraform
+            </div>
+        </div>
+    </sl-details>    
+
+    <sl-details summary="Cloud Services">
+        <div class="flex gap-3 flex-wrap">
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Compute</p>
+                AWS EC2
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Compute</p>
+                Google Compute Engine
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Storage</p>
+                Amazon S3
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Storage</p>
+                Google Cloud Storage
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Database</p>
+                AWS RDS
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Database</p>
+                Azure Cosmos DB
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Serverless</p>
+                AWS Lambda
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Serverless</p>
+                Google Cloud Functions
+            </div>
+        </div>
+    </sl-details>
+
+    <sl-details summary="AI and Machine Learning">
+        <div class="flex gap-3 flex-wrap">
+            <!-- Machine Learning Frameworks -->
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Framework</p>
+                TensorFlow
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Framework</p>
+                PyTorch
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Framework</p>
+                Scikit-learn
+            </div>
+    
+            <!-- Deep Learning Tools -->
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Deep Learning</p>
+                Keras
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Deep Learning</p>
+                Hugging Face
+            </div>
+    
+            <!-- Natural Language Processing -->
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">NLP</p>
+                spaCy
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">NLP</p>
+                NLTK
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">NLP</p>
+                OpenAI API
+            </div>
+    
+            <!-- Reinforcement Learning -->
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Reinforcement Learning</p>
+                OpenAI Gym
+            </div>
+            <div class="bg-gray-50 font-medium rounded-md px-4 py-2 w-fit shadow-sm">
+                <p class="text-xs font-normal">Reinforcement Learning</p>
+                Stable Baselines3
+            </div>
+    
+        </div>
+    </sl-details>    
+</div>
